@@ -2,7 +2,7 @@
 [//]: # (copyright: Josélio Júnior 2022)
 [//]: # (license: MIT)
 
-# Kolorz ![](https://gh-tags.vercel.app/api?lang=javascript) ![](https://gh-tags.vercel.app/api?lang=typescript)
+# Kolorz ![](https://gh-tags.vercel.app/api?lang=javascript)
 ### A Node.js library to convert color into different color systems.
 
 ## Usage
