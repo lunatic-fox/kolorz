@@ -1,6 +1,6 @@
 /**
- @author Josélio de S. C. Júnior (Lunatic Fox) <joseliojrx25@gmail.com>
- @copyright Josélio de S. C. Júnior - 2022
+ @author Josélio Júnior (Lunatic Fox) <joseliojrx25@gmail.com>
+ @copyright Josélio Júnior - 2022
  @license MIT
   
   MIT License
@@ -27,7 +27,7 @@
 
 *//***/
 
-import hslMethods from "./hsl-methods";
+import { CSSColorList } from './css-color-list/css-color-list';
 
 interface ResponseOptions {
   /** 
@@ -153,7 +153,7 @@ interface HSLAOptions extends HSLAToBefore {
 interface Kolorz {
   /** Validate the color pattern.
   @param color A valid CSS color name. */
-  css(color: 'aliceblue'|'antiquewhite'|'aqua'|'aquamarine'|'azure'|'beige'|'bisque'|'black'|'blanchedalmond'|'blue'|'blueviolet'|'brown'|'burlywood'|'cadetblue'|'chartreuse'|'chocolate'|'coral'|'cornflowerblue'|'cornsilk'|'crimson'|'cyan'|'darkblue'|'darkcyan'|'darkgoldenrod'|'darkgray'|'darkgrey'|'darkgreen'|'darkkhaki'|'darkmagenta'|'darkolivegreen'|'darkorange'|'darkorchid'|'darkred'|'darksalmon'|'darkseagreen'|'darkslateblue'|'darkslategray'|'darkslategrey'|'darkturquoise'|'darkviolet'|'deeppink'|'deepskyblue'|'dimgray'|'dimgrey'|'dodgerblue'|'firebrick'|'floralwhite'|'forestgreen'|'fuchsia'|'gainsboro'|'ghostwhite'|'gold'|'goldenrod'|'gray'|'grey'|'green'|'greenyellow'|'honeydew'|'hotpink'|'indianred'|'indigo'|'ivory'|'khaki'|'lavender'|'lavenderblush'|'lawngreen'|'lemonchiffon'|'lightblue'|'lightcoral'|'lightcyan'|'lightgoldenrodyellow'|'lightgray'|'lightgrey'|'lightgreen'|'lightpink'|'lightsalmon'|'lightseagreen'|'lightskyblue'|'lightslategray'|'lightslategrey'|'lightsteelblue'|'lightyellow'|'lime'|'limegreen'|'linen'|'magenta'|'maroon'|'mediumaquamarine'|'mediumblue'|'mediumorchid'|'mediumpurple'|'mediumseagreen'|'mediumslateblue'|'mediumspringgreen'|'mediumturquoise'|'mediumvioletred'|'midnightblue'|'mintcream'|'mistyrose'|'moccasin'|'navajowhite'|'navy'|'oldlace'|'olive'|'olivedrab'|'orange'|'orangered'|'orchid'|'palegoldenrod'|'palegreen'|'paleturquoise'|'palevioletred'|'papayawhip'|'peachpuff'|'peru'|'pink'|'plum'|'powderblue'|'purple'|'rebeccapurple'|'red'|'rosybrown'|'royalblue'|'saddlebrown'|'salmon'|'sandybrown'|'seagreen'|'seashell'|'sienna'|'silver'|'skyblue'|'slateblue'|'slategray'|'slategrey'|'snow'|'springgreen'|'steelblue'|'tan'|'teal'|'thistle'|'tomato'|'turquoise'|'violet'|'wheat'|'white'|'whitesmoke'|'yellow'|'yellowgreen'): CSSOptions;
+  css(color: CSSColorList): CSSOptions;
 
   /** Validate the color pattern.
   @param color A valid hexadecimal color pattern string. */
@@ -180,5 +180,5 @@ interface Kolorz {
   hsla(color: string): HSLAOptions;
 }
 
-declare var Kolorz: Kolorz;
+declare const Kolorz: Kolorz;
 export = Kolorz;

@@ -1,6 +1,6 @@
 /**
- @author Josélio de S. C. Júnior (Lunatic Fox) <joseliojrx25@gmail.com>
- @copyright Josélio de S. C. Júnior - 2022
+ @author Josélio Júnior (Lunatic Fox) <joseliojrx25@gmail.com>
+ @copyright Josélio Júnior - 2022
  @license MIT
 *//***/
 
