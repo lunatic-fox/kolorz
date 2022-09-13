@@ -1,0 +1,32 @@
+{
+  "name": "kolorz",
+  "version": "1.0.0",
+  "description": "Color converter - hexadecimal, RGB, HSL, CSS and more.",
+  "main": "src/util.js",
+  "keywords": [
+    "color",
+    "converter",
+    "hexadecimal",
+    "hex",
+    "rgb",
+    "hsl",
+    "hexa",
+    "rgba",
+    "hsla",
+    "css",
+    "hue",
+    "lightness",
+    "saturation",
+    "alpha"
+  ],
+  "author": "Josélio Júnior",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunatic-fox/kolorz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lunatic-fox/kolorz/issues"
+  },
+  "homepage": "https://github.com/lunatic-fox/kolorz#readme"
+}

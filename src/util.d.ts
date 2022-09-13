@@ -1,5 +1,5 @@
 /**
- @author Josélio de S. C. Júnior <joseliojrx25@gmail.com>
+ @author Josélio de S. C. Júnior (Lunatic Fox) <joseliojrx25@gmail.com>
  @copyright Josélio de S. C. Júnior - 2022
  @license MIT
   
@@ -26,6 +26,8 @@
   SOFTWARE.
 
 *//***/
+
+import hslMethods from "./hsl-methods";
 
 interface ResponseOptions {
   /** 
