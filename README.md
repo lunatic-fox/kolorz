@@ -1,8 +1,3 @@
-[//]: # (author: Josélio Júnior - (Lunatic Fox) <joseliojrx25@gmail.com>)
-[//]: # (copyright: Josélio Júnior - 2022)
-[//]: # (license: MIT)
-
-
 # Kolorz ![](https://gh-tags.vercel.app/api?lang=javascript)
 ### A Node.js library to convert color into different color systems.
 
