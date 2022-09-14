@@ -1,6 +1,6 @@
 {
   "name": "kolorz",
-  "version": "1.0.4",
+  "version": "0.0.1",
   "description": "Color converter - hexadecimal, RGB, HSL, CSS and more.",
   "main": "src/util.js",
   "keywords": [
