@@ -19,7 +19,7 @@ npm i kolorz
 
 ### Kolorz
 ~~~typescript
-Kolorz
+kolorz
   hex(color: string): toRGB | toHSL | <HSLMethods>;
   rgb(color: string): toHex | toHSL | <HSLMethods>;
   hsl(color: string): toRGB | toHex | <HSLMethods>;
@@ -134,35 +134,35 @@ value: string
 #### Simple convertion
 > Hexadecimal to RGB and HSL
 ~~~javascript
-const Kolorz = require('./Kolorz');
+const kolorz = require('kolorz');
 const color = '#28ee00';
 
-console.log(Kolorz.hex(color).toRGB);
+console.log(kolorz.hex(color).toRGB);
 // rgb(40, 238, 0)
 
-console.log(Kolorz.hex(color).toHSL);
+console.log(kolorz.hex(color).toHSL);
 // hsl(110, 100%, 47%)
 ~~~
 &nbsp;
 > Hexadecimal-alpha to RGBA and HSLA
 ~~~javascript
-const Kolorz = require('./Kolorz');
+const kolorz = require('kolorz');
 const color = '#28ee0001';
 
-console.log(Kolorz.hexa(color).toRGBA);
+console.log(kolorz.hexa(color).toRGBA);
 // rgba(40, 238, 0, 0.004)
 
-console.log(Kolorz.hexa(color).toHSLA); 
+console.log(kolorz.hexa(color).toHSLA); 
 // hsla(110, 100%, 47%, 0.004)
 ~~~
 
 
 #### Adjusting alpha
 ~~~javascript
-console.log(Kolorz.hexa(color).alpha(.5).toRGBA);
+console.log(kolorz.hexa(color).alpha(.5).toRGBA);
 // rgba(40, 240, 0, 0.506)
 
-console.log(Kolorz.hexa(color).alpha(.5).toHSLA);
+console.log(kolorz.hexa(color).alpha(.5).toHSLA);
 // hsla(110, 100%, 47%, 0.506)
 ~~~
 
@@ -171,31 +171,31 @@ console.log(Kolorz.hexa(color).alpha(.5).toHSLA);
 
 >saturation
 ~~~javascript
-const Kolorz = require('./Kolorz');
+const kolorz = require('kolorz');
 const color = '#28ee00ff';
 
-console.log(Kolorz.hexa(color).saturation(.5).toRGBA);
+console.log(kolorz.hexa(color).saturation(.5).toRGBA);
 // rgba(40, 240, 0, 1)
 
-console.log(Kolorz.hexa(color).saturation(.5).toHSLA);
+console.log(kolorz.hexa(color).saturation(.5).toHSLA);
 // hsla(110, 100%, 47%, 1)
 ~~~
 
 >lightness
 ~~~javascript
-console.log(Kolorz.hexa(color).lightness(.5).toRGBA);
+console.log(kolorz.hexa(color).lightness(.5).toRGBA);
 // rgba(242, 255, 240, 1)
 
-console.log(Kolorz.hexa(color).lightness(.5).toHSLA);
+console.log(kolorz.hexa(color).lightness(.5).toHSLA);
 // hsla(112, 100%, 97%, 1)
 ~~~
 
 >hue
 ~~~javascript
-console.log(Kolorz.hexa(color).hue(120).toRGBA);
+console.log(kolorz.hexa(color).hue(120).toRGBA);
 // rgba(0, 40, 240, 1)
 
-console.log(Kolorz.hexa(color).hue(120).toHSLA);
+console.log(kolorz.hexa(color).hue(120).toHSLA);
 // hsla(230, 100%, 47%, 1)
 ~~~
 
