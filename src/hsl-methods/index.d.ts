@@ -4,7 +4,7 @@
  @license MIT
 *//***/
 
-import Kolorz from "../util";
+import kolorz from "../util";
 
 declare function hslMethods(context: Kolorz, isCSS: boolean): {
   hue(degree: number): Function;

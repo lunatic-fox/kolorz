@@ -9,7 +9,7 @@ const ifn = require('./internal-functions');
 const hslMethods = require('./hsl-methods');
 const CSSColorList = require('./css-color-list');
 
-const Kolorz = Object.freeze({
+const kolorz = Object.freeze({
   css(color = '') {
     const found = Object.keys(CSSColorList).find(e => e === color);
 
@@ -112,4 +112,4 @@ const Kolorz = Object.freeze({
   }
 });
 
-module.exports = Kolorz;
+module.exports = kolorz;

@@ -180,5 +180,5 @@ interface Kolorz {
   hsla(color: string): HSLAOptions;
 }
 
-declare const Kolorz: Kolorz;
-export = Kolorz;
+declare const kolorz: Kolorz;
+export = kolorz;
