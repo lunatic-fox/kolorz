@@ -1,5 +1,5 @@
 # Kolorz ![](https://gh-tags.vercel.app/api?lang=javascript)
-### A Node.js library to convert color into different color systems.
+### A Node.js library to convert colors into different color systems.
 
 <div align="center">
   
